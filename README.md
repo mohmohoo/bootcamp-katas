@@ -1,2 +1,1 @@
-
-## Check the pdf in this repo for instructions
+## Check the .pdf in this repo for instructions
