@@ -1,23 +1,13 @@
-# TESTING WITH MOCHA - CHAI
+# Testing with Mocha and Chai
 
 ## INSTALLATION
-
-Install dependencies
 
 ```sh
 npm install
 ```
 
-Build the container:
+## RUN TESTS
 
 ```sh
-docker build -t my_container/node-7 .
+npm test
 ```
-
-## RUN
-
-Run the tests:
-
-```sh
-docker run -it -v $(pwd):/var/app my_container/node-7
-                          ```
