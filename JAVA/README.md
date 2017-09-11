@@ -3,13 +3,11 @@
 ## INSTALLATION
 
 ```sh
-mvn install
+./mvnw install
 ```
-
-**Note**: Must install Maven 3.x first.
 
 ## RUN TESTS
 
 ```sh
-mvn test
+./mvnw test
 ```

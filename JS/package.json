@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ANDigital/and-bootcamp-katas/issues"
   },
-  "homepage": "https://github.com/ANDigital/and-bootcamp-katas#readme"
+  "homepage": "https://github.com/ANDigital/and-bootcamp-katas#readme",
   "scripts": {
     "test": "mocha"
   },
