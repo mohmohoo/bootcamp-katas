@@ -1,7 +1,7 @@
 {
   "name": "and-bootcamp-katas",
   "version": "1.0.0",
-  "author": "cirpo",
+  "author": "@cirpo",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -11,8 +11,7 @@
     "kata",
     "bootcamp",
     "js",
-    "jest",
-    "chai"
+    "jest"
   ],
   "bugs": {
     "url": "https://github.com/ANDigital/and-bootcamp-katas/issues"
@@ -23,8 +22,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
-    "jest": "^21.0.2",
-    "mocha": "^3.4.1"
+    "jest": "^21.0.2"
   }
 }
