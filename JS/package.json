@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ANDigital/and-bootcamp-katas#readme",
   "scripts": {
-    "test": "jest --watch --coverage"
+    "test": "jest --coverage"
   },
   "dependencies": {},
   "devDependencies": {
