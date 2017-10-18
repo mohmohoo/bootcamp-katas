@@ -3,5 +3,17 @@ function helloWorld() {
 }
 
 module.exports = {
-  helloWorld: helloWorld
+  helloWorld: helloWorld,
+  printNumbers: printNumbers
 };
+
+
+function printNumbers() {
+  let numbers = [];
+
+  for(let i = 1; i<=100; i++){
+    numbers.push(i);
+  }
+
+  return numbers;
+}
