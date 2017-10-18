@@ -11,3 +11,8 @@ test("It should print 1 as first number", () => {
 test("It should print 100 as last number", () => {
   expect(app.printNumbers().pop()).toBe(100);
 });
+
+test("It should print fizz for the first 3rd number", () => {
+  let allNumbers = app.printNumbers();
+  expect(allNumbers[2]).toBe("fizz");
+});
