@@ -1,0 +1,11 @@
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\bin\Debug\netcoreapp2.0\Bootcamp_NET.deps.json
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\bin\Debug\netcoreapp2.0\Bootcamp_NET.runtimeconfig.json
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\bin\Debug\netcoreapp2.0\Bootcamp_NET.runtimeconfig.dev.json
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\bin\Debug\netcoreapp2.0\Bootcamp_NET.dll
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\bin\Debug\netcoreapp2.0\Bootcamp_NET.pdb
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\obj\Debug\netcoreapp2.0\Bootcamp_NET.csprojResolveAssemblyReference.cache
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\obj\Debug\netcoreapp2.0\Bootcamp_NET.csproj.CoreCompileInputs.cache
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\obj\Debug\netcoreapp2.0\Bootcamp_NET.AssemblyInfoInputs.cache
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\obj\Debug\netcoreapp2.0\Bootcamp_NET.AssemblyInfo.cs
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\obj\Debug\netcoreapp2.0\Bootcamp_NET.dll
+C:\GITHUB_ANDDigital\and-bootcamp-katas\NET\Bootcamp_NET\Bootcamp_NET\obj\Debug\netcoreapp2.0\Bootcamp_NET.pdb
