@@ -1,8 +1,6 @@
-﻿using System;
-using System.Text.RegularExpressions;
-namespace StringCalculator
+﻿namespace StringCalculator
 {
-    public class Class1
+    public class Calculator
     {
         public static int Calculate(string str)
         {
@@ -10,12 +8,12 @@ namespace StringCalculator
             {
                 return 0;
             }
-            
+
             var strArry = str.Split(',');
             var output = 0;
-            foreach(var s in strArry)
+            foreach (var s in strArry)
             {
-                if (int.TryParse(s, out int res))
+                if (int.TryParse(s, out int res)) 
                 {
                     output += res;
                 }
