@@ -11,11 +11,13 @@
 
             var strArry = str.Split(',');
             var output = 0;
+            var allowedInts = 1;
             foreach (var s in strArry)
             {
-                if (int.TryParse(s, out int res)) 
+                if (int.TryParse(s, out int res) && allowedInts <= 2) 
                 {
                     output += res;
+                    allowedInts++;
                 }
             }
 
