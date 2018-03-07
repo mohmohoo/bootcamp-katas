@@ -1,14 +1,29 @@
-using System;
 using Xunit;
+using StringCalculator;
 
 namespace StringCalculatorTests
 {
     public class UnitTest1
     {
-        [Fact]
-        public void Test1()
-        {
+        [Theory]
+        [InlineData("", 0)]
+        //[InlineData(" , ", 0)]
+        //[InlineData(" ,1", 1)]
 
+        //[InlineData("1", 1)]
+        //[InlineData("1,2", 3)]
+        //[InlineData("10,20", 30)]
+        //[InlineData("-1,3", 2)]
+
+        //[InlineData("a", 0)]
+        //[InlineData("a,1", 1)]
+        //[InlineData("-", 0)]
+        //[InlineData("-,1", 1)]
+        public void CalculateTest(string value, int expected)
+        {
+            var actual = Class1.Calculate(value);
+            Assert.Equal(expected, actual);
+            
         }
     }
 }

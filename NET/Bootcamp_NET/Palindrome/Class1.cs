@@ -47,7 +47,10 @@ namespace Palindrome
                     }
 
                     stack.Push(charVal);
+                    continue;
                 }
+
+                stack.Push(charVal);
             }
 
             return stack.Count == 0;
