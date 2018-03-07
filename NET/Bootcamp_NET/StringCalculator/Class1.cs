@@ -1,4 +1,6 @@
-﻿namespace StringCalculator
+﻿using System.Linq;
+
+namespace StringCalculator
 {
     public class Calculator
     {
@@ -9,19 +11,26 @@
                 return 0;
             }
 
-            var strArry = str.Split(',');
-            var output = 0;
-            var allowedInts = 1;
-            foreach (var s in strArry)
+            var strings = str.Split(',').ToList();
+            var sum = 0;
+
+            if (strings.Count != 2)
             {
-                if (int.TryParse(s, out int res) && allowedInts <= 2) 
+                return 0;
+            }
+            
+            foreach (var aChar in strings)
+            {
+                if (int.TryParse(aChar, out int parsedValue))
                 {
-                    output += res;
-                    allowedInts++;
+                    sum += parsedValue;
+                    continue;
                 }
+
+                return 0;
             }
 
-            return output;
+            return sum;
         }
     }
 }
